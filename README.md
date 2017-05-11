@@ -7,3 +7,5 @@ jest --coverage --forceExit
 ```
 
 It does not with jest 20.0.1 
+
+[Jest issue #3555](https://github.com/facebook/jest/issues/3555)
