@@ -1,0 +1,11 @@
+{
+  "name": "jest-coverage-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tolu/jest-coverage-bug.git",
+  "author": "Tobias Lundin <tobias.lundin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^20.0.1"
+  }
+}
