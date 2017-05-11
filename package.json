@@ -11,9 +11,7 @@
     "jest": "^20.0.1"
   },
   "scripts": {
-    "test": "jest --forceExit",
-    "coverage": "jest --coverage",
-    "coverage2": "jest --coverage --forceExit"
+    "test": "jest --coverage --forceExit"
   },
   "jest": {
     "coverageDirectory": "./coverage",
