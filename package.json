@@ -7,5 +7,20 @@
   "license": "MIT",
   "dependencies": {
     "jest": "^20.0.1"
+  },
+  "scripts": {
+    "test": "jest --coverage --forceExit"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage",
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "coverageReporters": [
+      "lcov",
+      "text"
+    ],
+    "testRegex": "spec\\.jsx?$",
+    "testEnvironment": "node"
   }
 }
